@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-df = pd.read_csv("Dataset/netflix_titles_cleaned.csv")
+df = pd.read_csv("Dataset/netflix_catalog_cleaned.csv")
 
 df["date_added"] = pd.to_datetime(df["date_added"], errors="coerce")
 
