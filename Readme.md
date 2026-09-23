@@ -579,7 +579,6 @@ Connect or refresh the PostgreSQL data source using your own local PostgreSQL co
 |---|---|
 | Python | Data processing and analysis |
 | Pandas | Data cleaning, transformation, aggregation |
-| NumPy | Numerical processing |
 | Matplotlib | Exploratory visualization |
 | PostgreSQL | Structured data storage |
 | SQL | Analytical querying |
