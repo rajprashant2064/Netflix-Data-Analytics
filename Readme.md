@@ -587,6 +587,7 @@ Connect or refresh the PostgreSQL data source using your own local PostgreSQL co
 | DAX | KPI and analytical measures |
 | Power BI | Interactive dashboard |
 | VS Code | Development environment |
+| psycopg2 | Python–PostgreSQL database connectivity |
 
 ---
 
