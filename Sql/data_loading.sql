@@ -21,7 +21,7 @@ COPY netflix_titles (
     duration_value,
     duration_unit
 )
-FROM 'E:/Automated Netflix Analytics/Dataset/netflix_titles_cleaned.csv'
+FROM 'E:/Automated Netflix Analytics/Dataset/netflix_catalog_cleaned.csv'
 WITH (
     FORMAT CSV,
     HEADER TRUE,
