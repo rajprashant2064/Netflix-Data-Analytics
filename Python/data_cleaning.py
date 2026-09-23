@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-df = pd.read_csv("Dataset/netflix_titles.csv")
+df = pd.read_csv("Dataset/netflix_catalog_raw.csv")
 
 print("Before cleaning:")
 print(df.shape)
@@ -89,7 +89,7 @@ df["release_year"] = pd.to_numeric(
 ).astype("Int64")
 
 df.to_csv(
-    "Dataset/netflix_titles_cleaned.csv",
+    "Dataset/netflix_catalog_cleaned.csv",
     index=False,
     na_rep="",
     date_format="%Y-%m-%d"
