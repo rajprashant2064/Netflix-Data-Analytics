@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("Dataset/netflix_titles.csv")
+df = pd.read_csv("Dataset/netflix_catalog_raw.csv")
 
 print(df.head())
 print("\nShape:", df.shape)
